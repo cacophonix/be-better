@@ -3,7 +3,7 @@
 # Clone an example Go repo
 # This step obviously won't be necessary if you're building a Go repo with LambCI,
 # because you'll already be in the cloned repo directory
-export LAMBCI_REPO=/acophonix/be-better
+export LAMBCI_REPO=cacophonix/be-better
 rm -rf /tmp/${LAMBCI_REPO}
 git clone --depth 1 https://github.com/${LAMBCI_REPO} /tmp/${LAMBCI_REPO}
 cd /tmp/${LAMBCI_REPO}
